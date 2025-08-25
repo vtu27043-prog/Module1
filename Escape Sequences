@@ -1,0 +1,44 @@
+Backspace
+\b adds a backspace
+#include<stdio.h>
+int main()
+{
+    printf("Hello\bWorld");  // It prints "HellWorld"
+    return 0;
+}
+
+Newline
+Newline Character
+#include<stdio.h>
+int main()
+{
+    printf("Line one\nLine two"); // Prints two lines
+    return 0;
+}
+
+Tab
+It gives a tab space
+#include<stdio.h>
+int main()
+{
+    printf("Tabbed\ttext"); // Adds a tab space
+    return 0;
+}
+
+Backslash
+It adds a backslash
+#include<stdio.h>
+int main()
+{
+    printf("\\"); // Prints a backslash
+    return 0;
+}
+
+Single quote
+It adds a single quotation mark
+#include<stdio.h>
+int main()
+{
+    printf("\'"); // Prints a single quotation mark
+    return 0;
+}
