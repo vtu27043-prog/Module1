@@ -1,0 +1,18 @@
+int ;      //To store non-decimal numeric values, an integer type is used.
+flaot ;    //To store decimal numeric values, float type is used.
+char ;     //The character type is used to store individual characters.
+
+The format specifier of an integer is "%d":
+int a;
+scanf("%d",&a);
+printf("%d",a);
+
+The format specifier of a float is "%f":
+float b;
+scanf("%f",&b);
+printf("%f",b);
+
+The format specifier for a character in C is "%c":
+char x;
+scanf(" %c",&x);
+printf("character is %c",x);
